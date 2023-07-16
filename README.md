@@ -7,7 +7,7 @@ This is a simple calculator project built using JavaScript that performs basic a
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/basic-calculator.git
+git clone https://github.com/Khizar-sheikh/Calculator-Javascript.git
 ```
 
 2. Open the `index.html` file in your web browser.
