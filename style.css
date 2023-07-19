@@ -5,22 +5,23 @@
     font-family: 'Orbitron', sans-serif;
 }
 .calculator{
-    height: 550px;
-    margin: auto;
+    padding: 20px;
     background-color: gray;
-    display: grid;
-    grid-template-rows: 1fr 4fr;
-    box-sizing: border-box;
     width: 366px;
-    margin-top: 10px;
     border-radius: 15px;
     border: 2px solid;
 }
 .main{
     display:flex ;
+     align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
 }
 .screen{
-    margin: 20px 20px 0px 20px;
+    margin: 0px 0px 15px 0px;
     padding: 10px 20px;
     border: 2px black solid;
     border-radius: 5px;
@@ -28,20 +29,24 @@
     text-align: right;
     word-wrap: break-word;
     word-break: break-all;
+
 }
-#expr{
+#expression{
     min-height: 32px;
     font-size: 20px;
 }
-#ans{
+#result{
     min-height: 64px;
     font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 }
 .buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    margin: 20px;
+    /* margin: 20px; */
 }
 .btn{
     padding: 20px;
@@ -49,6 +54,10 @@
     border-radius: 5px;
     background-color: white;
     font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+        background-color: lightgrey;
 }
 .span-2 {
     grid-column: span 2;
