@@ -19,8 +19,8 @@ git clone https://github.com/Khizar-sheikh/Calculator-Javascript.git
 - Addition: Use the `+` button or the `Add` function to perform addition.
 - Subtraction: Use the `-` button or the `Subtract` function to perform subtraction.
 - Multiplication: Use the `x` button or the `Multiply` function to perform multiplication.
-- Division: Use the `/` button or the `Divide` function to perform division.
-- Clear: Use the `C` button or the `Clear` function to clear the calculator display.
+- Division: Use the `÷` button or the `Divide` function to perform division.
+- Clear: Use the `Clear` button or the `Clear` function to clear the calculator display.
 
 ## Technologies Used
 
